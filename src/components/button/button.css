@@ -1,0 +1,15 @@
+.btn {
+    margin: 20px 0 0 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 20px;
+    transition: all .2s ;
+    box-shadow: 0.1rem 0.1rem black;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0.3rem 0.3rem black;
+        transition: all .2s;
+    }
+
+}
